@@ -15,21 +15,21 @@ class App extends Component{
   render(){
     return <>
     <div class="header-arriba">
-      <div class="font-black-xl">Intento text!</div>
+      <br></br>
       <div class="imagen-logo" id = "wrapper"></div>
       <img  src={logo}></img>
     </div>
 
     <div class="header-abajo">
       <hr class="line"></hr>
+      <div class= "center">
       <nav class="navbar navbar-expand-lg navbar-light navbar-light-hover-color">
-        <a  class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler navcolapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler navcolapsed center  " type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon center"></span>
         </button>
 
-        <div class="navbar-collapse collapse" id="navbarCollapse" >
-          <ul class="navbar-nav mr-auto">
+        <div class="navbar-collapse collapse center" id="navbarCollapse" >
+          <ul class="navbar-nav mr-auto center navbar-center">
           <li class="nav-item ">
               <a class="nav-link navcols" href="#">PRINTABLE CALENDARS</a>
             </li>
@@ -82,6 +82,7 @@ class App extends Component{
           </ul>
         </div>
       </nav>
+      </div>
       <hr class = "line"></hr>
     </div>
 
@@ -98,20 +99,25 @@ class App extends Component{
       <div>
       <br></br>
       <div class="row">
-        <div class="col-7 texti">
+        <div class="col-7 texti ">
           <div class= "general">
-            <h4>I’m so happy you’re here!</h4>
+            <h4 class="textoinit">I’m so happy you’re here!</h4>
             <br></br>
-            <h4>Kristens gift is a place where you can come for inspiration, pretty & free printables, tips and tools to simplify, plan, be productive and succeed – and change your life one Saturday gift at a time.</h4>
+            <h4  class="textoinit">Kristens gift is a place where you can come for inspiration, pretty & free printables, tips and tools to simplify, plan, be productive and succeed – and change your life one Saturday gift at a time.</h4>
             <br></br>
-            <h4 class="bold">Love, Kristen</h4>
+            <h4 class="bold textoinit"><i>Love, Kristen</i></h4>
           </div>
         </div>
         <div class="col-5">
           <br></br>
-          <img src={yo} class="img-rounded"></img>
+          <br></br>
+          <br></br>
+          <img src={yo} class="img-rounded img-fluid"></img>
         </div>
         </div>
+        <br></br>
+        <br></br>
+
       </div>
 
       <div class="beige alturadif">
@@ -119,34 +125,35 @@ class App extends Component{
       </div>
       <br></br>
 
+    <div class= "container">
       <div class="row">
-      <div class="col-4">
+      <div class="col-6">
           <div>
-          <br></br>
           <img src={calendar} class="img-rectangle"></img> 
+          <br></br>
           </div>
         </div>
-        <div class="col-8 texti">
-          <div class= "general">
-            <h4 class="bold texto">Cute (and free!) Saturday Gift calendars?</h4>
+        <div class="col-6">
+          <div class= "texto">
+            <h4 class="bold ">Cute (and free!) Saturday Gift calendars?</h4>
             <br></br>
-            <br></br>
-            <h4 class= "texto">Want to see all the pretty & free printable calendars I’ve created for you? Super!</h4>
+            <h4 class= "">Want to see all the pretty & free printable calendars I’ve created for you? Super!</h4>
             <br></br>
             <a class="bold links pink-text blue-text">PRINTABLE CALENDARS </a>
+            
 
           </div>
         </div>
       </div>
+      </div>
       <br></br>
-
       <div class="row beige">
-        <div class="col-8 texti">
-          <div class= "general">
-            <h4 class="bold texto">Cute (and free!) Saturday Gift calendars?</h4>
+        <div class="col-6">
+          <div class= "texto">
             <br></br>
+            <h4 class="bold">Cute (and free!) Saturday Gift calendars?</h4>
             <br></br>
-            <h4 class= "texto">Want to see all the pretty & free printable calendars I’ve created for you? Super!</h4>
+            <h4 class= "">Want to see all the pretty & free printable calendars I’ve created for you? Super!</h4>
             <br></br>
             <a class="bold links pink-text blue-text">PRINTABLE CALENDARS </a>
             <br></br>
@@ -154,7 +161,7 @@ class App extends Component{
 
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-6">
           <div>
           <br></br>
           <img src={calendar} class="img-rectangle"></img> 
@@ -163,34 +170,38 @@ class App extends Component{
         
       </div>
       <br></br>
+
+      
+      <br></br>
+      <div class= "container">
       <div class="row">
-      <div class="col-4">
+      <div class="col-6">
           <div>
-          <br></br>
           <img src={calendar} class="img-rectangle"></img> 
           </div>
         </div>
-        <div class="col-8 texti">
-          <div class= "general">
-            <h4 class="bold texto">Cute (and free!) Saturday Gift calendars?</h4>
+        <div class="col-6">
+          <div class= "texto">
+            <h4 class="bold ">Cute (and free!) Saturday Gift calendars?</h4>
             <br></br>
-            <br></br>
-            <h4 class= "texto">Want to see all the pretty & free printable calendars I’ve created for you? Super!</h4>
+            <h4 class= "">Want to see all the pretty & free printable calendars I’ve created for you? Super!</h4>
             <br></br>
             <a class="bold links pink-text blue-text">PRINTABLE CALENDARS </a>
+            <br></br>
 
           </div>
         </div>
       </div>
-      <br></br>
+      </div>
+      
 
       <div class="row beige">
-        <div class="col-8 texti">
-          <div class= "general">
-            <h4 class="bold texto">Cute (and free!) Saturday Gift calendars?</h4>
+        <div class="col-6">
+          <div class= "texto">
             <br></br>
+            <h4 class="bold">Cute (and free!) Saturday Gift calendars?</h4>
             <br></br>
-            <h4 class= "texto">Want to see all the pretty & free printable calendars I’ve created for you? Super!</h4>
+            <h4 class= "">Want to see all the pretty & free printable calendars I’ve created for you? Super!</h4>
             <br></br>
             <a class="bold links pink-text blue-text">PRINTABLE CALENDARS </a>
             <br></br>
@@ -198,7 +209,7 @@ class App extends Component{
 
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-6">
           <div>
           <br></br>
           <img src={calendar} class="img-rectangle"></img> 
@@ -403,9 +414,10 @@ class App extends Component{
       
 
     <footer class="footer beige">
-      <div class="container">
+      <div class="">
+        
         <div class="row">
-          <div class="col-8 texti">
+          <div class="col-4">
           <nav class="navbar navbar-expand-lg navbar-light navbar-light-hover-color">
               <a  class="navbar-brand" href="#"></a>
               <div >
@@ -422,40 +434,26 @@ class App extends Component{
               <li class="nav-item ">
                 <a class="nav-link navcols" href="#">Disclosure Policy</a>
               </li>
-
-              </ul>
-              
-            </div>
-            </nav>
-            </div>
-            <div class="col-4 texti">
-              <br></br>
-          <span class="footerfont text-muted">© COPYRIGHT SATURDAYGIFT 2018 - 2022 </span>
-
-          <br></br>
-          </div>
-
-            <div class="row">
-          <div class="col-8 texti">
-          <nav class="navbar navbar-expand-lg navbar-light navbar-light-hover-color">
-              <a  class="navbar-brand" href="#"></a>
-              <div>
-              <ul class="navbar-nav mr-auto">
-            
               <li class="nav-item ">
                 <a class="nav-link navcols" href="#">Terms And Conditions</a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link navcols" href="#">Acessibility Statement</a>
               </li>
-              </ul>
-              </div>
-            </nav>
 
+              </ul>
+              
+            </div>
+            </nav>
+            </div>
+            <div class="col-4"></div>
+            <div class="col-4 texti">
+              <br></br>
+          <span class="footerfont text-muted">© COPYRIGHT SATURDAYGIFT 2018 - 2022 </span>
+
+          <br></br>
           </div>
         
-  
-        </div>
         
       </div>
       </div>

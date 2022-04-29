@@ -19,35 +19,59 @@ hr.line {
     position: relative;
     text-align: center;
     line-height: 1.4;
+    flex-basis: 100%!important;
 
 }
 
 .beige {
     background-color: #FAF9F7;
-    position: relative;
-    text-align: center;
-    line-height: 1.4;
+
 
 }
 
 .alturadif {
     background-color: #FAF9F7;
-    height: 70px;
+    height: 105px;
     position: relative;
     text-align: center;
     line-height: 1.4;
 
+
 }
+
+.navbar-center{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    text-align:center;
+
+}
+
+li {
+    display:inline-block;
+}
+
+.center{
+    text-align: center;
+    display: flex;
+    flex-grow: 1;
+}
+
+
 
 .general{
     margin: auto;
-    width: 90%;
+    width: 93%;
     padding: 10px;
+    flex-basis: 100%!important;
+    
+
 }
 .general2{
     margin: auto;
     width: 70%;
     padding: 10px;
+    flex-basis: 100%!important;
 }
 
 .shadow{
@@ -66,15 +90,20 @@ hr.line {
     text-align: justify;
     text-justify: inter-word;
     height: 50%;
-    padding-left: 15%;
+
+
     
 }
 
 .texto{
     text-align: center;
+    align-items: center;
     text-justify: inter-word;
     height: 50%;
     padding-left: 15%;
+    flex-basis: 100%!important;
+
+    
     
 }
 
@@ -82,16 +111,25 @@ hr.line {
     text-align: center;
     text-justify: inter-word;
     height: 50%;
-    padding-left: 40%;
+
+    flex-basis: 100%!important;
     
 }
 
 
 .h4{
-    text-align: justify;
-    text-justify: inter-word;
     padding-left: 5%;
+    font-size: 20px;
+    line-height: 1.7;
 
+}
+
+.textoinit{
+    
+    text-align: left;
+    text-justify: inter-word;
+    line-height:1.7;
+    flex-basis: 100%!important;
 }
 
 
@@ -126,7 +164,7 @@ hr.line {
 
 .centered1 {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -139,16 +177,19 @@ hr.line {
   }
 
 .img-rounded{
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-basis: 100%!important;
 }
 
 .img-rectangle{
-    height: 90%;
+    height: 100%;
+    width: 100%;
     box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
-    width: auto;
 }
 
 
@@ -224,6 +265,10 @@ hr.line {
     display: inline-block;
     font-family: inherit;
     cursor: pointer;
+}
+
+.space{
+    width: 50%
 }
 
 

@@ -7,11 +7,11 @@ En este proyecto no se utilizó create-react-app, sino que se fue instalando cad
 
 - [ ] (35 puntos) Según qué tan similar sea su diseño al sitio en el que se basaron, deben enviar el sitio en los comentarios.
 - [ ] (10 puntos) Por explicar a través de un README bien formateado (hint) qué tecnologías implementaron
-- [ ]  (10 puntos) Por no incluir ni un solo archivo de html en su proyecto
+- [x]  (10 puntos) Por no incluir ni un solo archivo de html en su proyecto
 A excepción del index del proyecto
-- [ ] (5 puntos) Por implementar React
-- [ ] (5 puntos) Por implementar Babel
-- [ ] (5 puntos) Por implementar Webpack
+- [x] (5 puntos) Por implementar React
+- [x] (5 puntos) Por implementar Babel
+- [x] (5 puntos) Por implementar Webpack
 - [ ] (5 puntos) Por implementar ESLint
 - [ ] (5 puntos) Por implementar Sass
 - [ ] (5 puntos) Por implementar loaders para imágenes
