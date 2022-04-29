@@ -14,10 +14,10 @@ En este proyecto no se utilizó create-react-app, sino que se fue instalando cad
 
 
 <a name="usage"></a>
-## 2. Usage tips
+## 2. Librerías utilizadas en el proyecto
 
 - [ ] (35 puntos) Según qué tan similar sea su diseño al sitio en el que se basaron, deben enviar el sitio en los comentarios.
-- [x ] (10 puntos) Por explicar a través de un README bien formateado qué tecnologías implementaron
+- [x] (10 puntos) Por explicar a través de un README bien formateado qué tecnologías implementaron
 - [x]  (10 puntos) Por no incluir ni un solo archivo de html en su proyecto
 A excepción del index del proyecto
 - [x] (5 puntos) Por implementar React
