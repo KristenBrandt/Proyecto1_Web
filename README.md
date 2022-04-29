@@ -12,10 +12,10 @@ A excepción del index del proyecto
 - [x] (5 puntos) Por implementar React
 - [x] (5 puntos) Por implementar Babel
 - [x] (5 puntos) Por implementar Webpack
-- [ ] (5 puntos) Por implementar ESLint
+- [x] (5 puntos) Por implementar ESLint
 - [ ] (5 puntos) Por implementar Sass
-- [ ] (5 puntos) Por implementar loaders para imágenes
-- [ ] (5 puntos) Por implementar animaciones o transiciones iguales que el sitio web seleccionado
+- [x] (5 puntos) Por implementar loaders para imágenes
+- [x] (5 puntos) Por implementar animaciones o transiciones iguales que el sitio web seleccionado
 - [ ] (10 puntos) Por publicar la aplicacion en el puerto indicado en clase, con nginx. 
 - [ ] (-20 puntos) Si entregan un link a su proyecto publicado en el servidor de la clase sin nginx
 Extra:

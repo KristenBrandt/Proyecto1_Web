@@ -7,9 +7,6 @@
     width:60%;
     height: 60%;
 }
-
-
-
 hr.line {
     border-top: 2px solid black;
 }
@@ -168,6 +165,7 @@ li {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
 
 .centered2 {
     position: absolute;
