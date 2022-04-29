@@ -4,6 +4,7 @@
 
 1. [ Que es el proyecto. ](#desc)
 2. [ Librerías utilizadas ](#usage)
+3. [ Servidor ](#server)
 
 <a name="desc"></a>
 ## 1. Que es el proyecto
@@ -27,9 +28,14 @@ A excepción del index del proyecto
 - [ ] (5 puntos) Por implementar Sass
 - [x] (5 puntos) Por implementar loaders para imágenes
 - [x] (5 puntos) Por implementar animaciones o transiciones iguales que el sitio web seleccionado
-- [x] (10 puntos) Por publicar la aplicacion en el puerto indicado en clase, con nginx. 
+- [x] (10 puntos) Por publicar la aplicación en el puerto indicado en clase, con nginx. 
 - [ ] (-20 puntos) Si entregan un link a su proyecto publicado en el servidor de la clase sin nginx
 Extra:
 - [ ] (20 puntos) Por implementar Server Side Rendering en su aplicación (sin utilizar ninguna librería adicional) (hint) (otro_hint) (Enlaces a un sitio externo.)
-- [x] Para hacer los grids utilize bootstrap
+- [x] Para hacer los grids utilizé bootstrap
  
+ 
+ <a name="server"></a>
+## 3. Servidor donde esta publicado usando nginx
+
+http://stw-uvg-22.site:4002/
